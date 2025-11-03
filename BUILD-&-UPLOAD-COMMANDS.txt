@@ -1,0 +1,22 @@
+# 1. Create repo
+gh repo create fair-collective/bootstrap-blueprint --public
+
+# 2. Clone & add files
+git clone https://github.com/fair-collective/bootstrap-blueprint.git
+cd bootstrap-blueprint
+# → Paste all files above
+
+# 3. Commit
+git add .
+git commit -m "feat: Bootstrap Blueprint v1.0 — 100% free AI coach"
+
+# 4. Push
+git push
+
+# 5. Build APK
+flutter build apk --release
+
+# 6. Release
+gh release create v1.0 android/app/build/outputs/apk/release/app-release.apk \
+  --title "v1.0 — 100% Free" \
+  --notes "No money. No ads. Just growth."
