@@ -1,0 +1,26 @@
+bootstrap-blueprint/
+│
+├── README.md                     ← Full guide (below)
+├── LICENSE                       ← MIT
+├── CHANGELOG.md                  ← v1.0
+│
+├── lib/
+│   ├── main.dart                 ← Complete Flutter app
+│   ├── screens/
+│   │   ├── home.dart             ← Business picker
+│   │   ├── roadmap.dart          ← Generated steps
+│   │   └── tracker.dart          ← Progress + ethics
+│   └── utils/
+│       ├── web_search.dart       ← Real-time data pull
+│       └── ethics_check.dart     ← Built-in integrity
+│
+├── assets/
+│   ├── icon.png
+│   └── logo.png
+│
+├── pubspec.yaml                  ← Dependencies
+├── android/                      ← Android build
+├── ios/                          ← iOS build
+├── web/                          ← Web version
+└── releases/
+    └── bootstrap-blueprint.apk   ← Android ready
